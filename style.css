@@ -1,0 +1,332 @@
+#container {
+  margin: auto;
+  position: absolute;
+  top: 0em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+#top {
+  background: linear-gradient(75deg, #c3299c, #c3292c);
+  color: white;
+}
+
+#top img {
+  width: 48%;
+  height: 1000px;
+  padding-top: 4em;
+}
+
+#top-r img {
+  height: 5.5rem;
+  width: 6.5rem;
+  margin-bottom: -1em;
+  position: relative;
+  right: 0.5em;
+}
+
+#top-cnt {
+  display: block;
+  margin: auto;
+  width: 82%;
+  height: 900px;
+}
+
+#top h1 {
+  font-size: 2.6rem;
+  margin-bottom: -.3em;
+}
+
+#top h4 {
+  font-size: 1.2rem;
+  line-height: 25px;
+  font-weight: 400;
+  width: 70%;
+  margin-top: 1em;
+  margin-bottom: -0.05em;
+}
+
+#top p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#top-r {
+  position: relative;
+  display: inline-block;
+  width: 52%;
+  float: right;
+  top: 9em;
+}
+
+#top form {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.8em;
+  border-radius: 6px;
+  width: 80%;
+}
+
+form input {
+  height: 2em;
+  position: relative;
+  border-radius: 0.3em;
+  border: 1px solid #cccccc;
+  border-bottom-color: #d6d6d6;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #333333;
+  line-height: 1.2;
+  width: 75%;
+  padding: 0.4em;
+  padding-left: 0.6em;
+  font-size: 1rem;
+}
+
+form button {
+  width: 19%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 3.2em;
+  background-color: white;
+  border: 1px solid transparent;
+  box-shadow: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  line-height: 2.3em;
+  margin-bottom: 0;
+  text-align: center;
+  display: inline-block;
+  left: 0.8em;
+  vertical-align: top;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+ul {
+  padding-top: 5em;
+}
+
+ul li:first-of-type {
+  list-style-image: url("images/twitter-logo.svg");
+  padding-bottom: 1em;
+}
+
+ul li:nth-of-type(2) {
+  list-style-image: url("images/github-logo.svg");
+  padding-bottom: 9em;
+}
+
+.lst-txt {
+  margin-left: 1em;
+  position: relative;
+  top: -0.6em;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.lst-txt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#tchst {
+  padding-top: 7em;
+  display: block;
+  margin: auto;
+  padding-bottom: 3.5em;
+  margin-bottom: 2em;
+}
+
+#tchst h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 83%;
+  display: block;
+  margin: auto;
+  padding-bottom: 2em;
+  padding-left: 1em;
+}
+
+ol {
+  list-style: none;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 78%;
+}
+
+ol li {
+  display: inline-block;
+  width: 18%;
+  padding-right: 4em;
+}
+
+ol li h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+ol li p {
+  line-height: 20px;
+  vertical-align: baseline;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: -1em;
+}
+
+.tbl-img {
+  width: 5rem;
+  display: block;
+  margin: auto;
+}
+
+article {
+  height: 20em;
+  padding-top: 2em;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  padding-bottom: 5em;
+  width: 74%;
+  display: block;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+article h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.9rem;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+article code {
+  display: block;
+  margin: auto;
+  width: 75%;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  color: #333333;
+  padding: 2.5em 0 3em 1.5em;
+}
+
+article code + p {
+  width: 26%;
+  margin-left: 7.6em;
+  margin-top: 2.3em;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+#exmp {
+  height: auto;
+  width: 72%;
+  display: block;
+  margin: auto;
+}
+
+#exmp h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  display: block;
+  margin: auto;
+  padding-left: 1em;
+}
+
+.thmbb {
+  width: 4rem;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+#exmp ul {
+  list-style: none;
+  margin: auto;
+  display: block;
+}
+
+#exmp ul li {
+  display: inline-block;
+  margin: auto;
+}
+
+#exmp ul li h5 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.7em;
+}
+
+#exmp ul li button {
+  display: block;
+  margin: auto;
+  color: #1385e5;
+  border-color: #71b5ef;
+  background: none;
+  font-size: 12px;
+  border-radius: 0.3em;
+  cursor: pointer;
+  font-weight: 500;
+  height: 2.4em;
+  outline: none;
+  padding: 0 1em;
+  border: 1px solid #71b5ef;
+  vertical-align: middle;
+}
+
+#exmp ul li button:hover {
+  background-color: #f2f7fc;
+  border-color: #439de9;
+}
+
+
+#exmp ul li p {
+  text-align: center;
+  vertical-align: baseline;
+  line-height: 20px;
+  width: 77%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.phnn {
+  height: 29rem;
+  padding-top: 3em;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 15rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  height: 8em;
+  margin-top: 3em;
+  text-align: center;
+  color: #999999;
+  font-weight: 300;
+  background: white;
+  border-top: 1px solid transparent;
+}
+footer p {
+  padding-top: 2em;
+  padding-left: 1em;
+}
