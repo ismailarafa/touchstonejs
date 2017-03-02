@@ -1,29 +1,32 @@
-#container {
+body .container {
   margin: auto;
   position: absolute;
-  top: 0em;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  box-sizing: border-box;
   display: block;
-  font-size: 14px;
   font-family: Helvetica;
   font-weight: 300;
 }
 
-#top {
+body .top {
   background: linear-gradient(75deg, #c3299c, #c3292c);
   color: white;
 }
 
-#top img {
-  width: 48%;
-  height: 1000px;
-  padding-top: 4em;
+.top {
+  padding-top: 2em;
+  height: 855px;
 }
 
-#top-r img {
+.top img {
+  width: 48%;
+  height: 1000px;
+  position: relative;
+}
+
+body .top-r img {
   height: 5.5rem;
   width: 6.5rem;
   margin-bottom: -1em;
@@ -31,19 +34,19 @@
   right: 0.5em;
 }
 
-#top-cnt {
+.top-cnt {
   display: block;
   margin: auto;
   width: 82%;
   height: 900px;
 }
 
-#top h1 {
-  font-size: 2.6rem;
-  margin-bottom: -.3em;
+h1 {
+  font-size: 2rem;
+  margin-bottom: -0.3em;
 }
 
-#top h4 {
+h4 {
   font-size: 1.2rem;
   line-height: 25px;
   font-weight: 400;
@@ -52,22 +55,23 @@
   margin-bottom: -0.05em;
 }
 
-#top p {
+.top p {
+  color: grey;
   color: rgba(255, 255, 255, 0.8);
   line-height: 23px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1rem;
 }
 
-#top-r {
+.top-r {
   position: relative;
-  display: inline-block;
   width: 52%;
   float: right;
   top: 9em;
 }
 
-#top form {
+.top form {
+  background-color: grey;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0.8em;
   border-radius: 6px;
@@ -78,12 +82,12 @@ form input {
   height: 2em;
   position: relative;
   border-radius: 0.3em;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-bottom-color: #d6d6d6;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  color: #333333;
+  color: #333;
   line-height: 1.2;
-  width: 75%;
+  width: 74%;
   padding: 0.4em;
   padding-left: 0.6em;
   font-size: 1rem;
@@ -137,7 +141,7 @@ ul li:nth-of-type(2) {
   text-decoration: underline;
 }
 
-#tchst {
+.tchst {
   padding-top: 7em;
   display: block;
   margin: auto;
@@ -145,11 +149,10 @@ ul li:nth-of-type(2) {
   margin-bottom: 2em;
 }
 
-#tchst h2 {
+h2 {
   text-align: center;
   font-weight: 300;
   font-size: 2rem;
-  width: 83%;
   display: block;
   margin: auto;
   padding-bottom: 2em;
@@ -167,21 +170,15 @@ ol {
 ol li {
   display: inline-block;
   width: 18%;
-  padding-right: 4em;
-}
-
-ol li h5 {
-  font-size: 1rem;
-  font-weight: 500;
+  padding-right: 3em;
+  margin: auto;
 }
 
 ol li p {
   line-height: 20px;
   vertical-align: baseline;
   width: 100%;
-  display: block;
   margin: auto;
-  margin-top: -1em;
 }
 
 .tbl-img {
@@ -193,8 +190,8 @@ ol li p {
 article {
   height: 20em;
   padding-top: 2em;
-  border-bottom: 1px solid #eeeeee;
-  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
   padding-bottom: 5em;
   width: 74%;
   display: block;
@@ -202,45 +199,28 @@ article {
   margin-bottom: 5em;
 }
 
-article h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 1.9rem;
-  padding-bottom: 1em;
-  padding-left: 1em;
-}
-
 article code {
   display: block;
   margin: auto;
   width: 75%;
   background-color: #f3f3f3;
-  border: 1px solid #dddddd;
-  color: #333333;
+  border: 1px solid #ddd;
+  color: #333;
   padding: 2.5em 0 3em 1.5em;
 }
 
 article code + p {
-  width: 26%;
-  margin-left: 7.6em;
+  width: 35%;
+  margin-left: 6.7em;
   margin-top: 2.3em;
   color: rgba(51, 51, 51, 0.5);
 }
 
-#exmp {
+.exmp {
   height: auto;
   width: 72%;
   display: block;
   margin: auto;
-}
-
-#exmp h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 2rem;
-  display: block;
-  margin: auto;
-  padding-left: 1em;
 }
 
 .thmbb {
@@ -250,26 +230,26 @@ article code + p {
   position: relative;
 }
 
-#exmp ul {
+.exmp > ul {
   list-style: none;
   margin: auto;
   display: block;
 }
 
-#exmp ul li {
+.exmp > ul li {
   display: inline-block;
   margin: auto;
+  width: 32%;
 }
 
-#exmp ul li h5 {
+h5 {
   text-align: center;
   font-weight: 500;
   font-size: 1rem;
   margin-bottom: 0.7em;
 }
 
-#exmp ul li button {
-  display: block;
+.exmp > ul li button {
   margin: auto;
   color: #1385e5;
   border-color: #71b5ef;
@@ -282,16 +262,15 @@ article code + p {
   outline: none;
   padding: 0 1em;
   border: 1px solid #71b5ef;
-  vertical-align: middle;
+  display: block;
 }
 
-#exmp ul li button:hover {
+.exmp > ul li button:hover {
   background-color: #f2f7fc;
   border-color: #439de9;
 }
 
-
-#exmp ul li p {
+.exmp > ul li p {
   text-align: center;
   vertical-align: baseline;
   line-height: 20px;
@@ -320,18 +299,19 @@ footer {
   margin: auto;
   height: 8em;
   text-align: center;
-  color: #999999;
+  color: #999;
   font-weight: 300;
   background: white;
   border-top: 1px solid transparent;
 }
 
-#grdn {
+.grdn {
   background: linear-gradient(white, white 80%, #f9f9f9);
   display: block;
   margin: auto;
   height: 15em;
 }
+
 footer p {
   padding-top: 2em;
   padding-left: 1em;
